@@ -1,12 +1,6 @@
 {
 	"tokenColors": [
 		{
-			"settings": {
-				"background": "#C7EDCC",
-				"foreground": "#000000"
-			}
-		},
-		{
 			"name": "Comment",
 			"scope": "comment",
 			"settings": {
@@ -58,7 +52,7 @@
 			"scope": "keyword",
 			"settings": {
 				"foreground": "#F92672",
-				"fontStyle": " italic"
+				"fontStyle": "italic"
 			}
 		},
 		{
@@ -128,7 +122,7 @@
 		{
 			"name": "User-defined constant",
 			"scope": [
-				"constant.character",
+				// "constant.character",
 				"constant.other"
 			],
 			"settings": {
@@ -147,7 +141,7 @@
 			"scope": "variable.parameter",
 			"settings": {
 				"foreground": "#FD971F",
-				"fontStyle": " italic"
+				"fontStyle": ""
 			}
 		},
 		{
@@ -205,7 +199,7 @@
 			],
 			"settings": {
 				"foreground": "#F08C65",
-				"fontStyle": " italic"
+				"fontStyle": ""
 			}
 		},
 		{
@@ -234,7 +228,7 @@
 			"scope": "invalid",
 			"settings": {
 				"foreground": "#5C5C46",
-				"background": "#F92672"
+				// "background": "#F92672"
 			}
 		},
 		{
@@ -808,10 +802,6 @@
 			}
 		},
 		{
-			"name": "PHP: Class Function",
-			"settings": {}
-		},
-		{
 			"name": "PHP: Semicolon",
 			"scope": "punctuation.terminator.expression.php",
 			"settings": {
@@ -969,7 +959,7 @@
 				"meta.diff.header"
 			],
 			"settings": {
-				"background": "#c49900",
+				// "background": "#c49900",
 				"fontStyle": "italic",
 				"foreground": "#dadfe0"
 			}
@@ -978,7 +968,7 @@
 			"name": "diff: deleted",
 			"scope": "markup.deleted",
 			"settings": {
-				"background": "#65696a",
+				// "background": "#65696a",
 				"fontStyle": "",
 				"foreground": "#949899"
 			}
@@ -987,7 +977,7 @@
 			"name": "diff: changed",
 			"scope": "markup.changed",
 			"settings": {
-				"background": "#8c95dc",
+				// "background": "#8c95dc",
 				"fontStyle": "",
 				"foreground": "#dadfe0"
 			}
@@ -996,7 +986,7 @@
 			"name": "diff: inserted",
 			"scope": "markup.inserted",
 			"settings": {
-				"background": "#74a468",
+				// "background": "#74a468",
 				"foreground": "#dadfe0"
 			}
 		},
@@ -1004,7 +994,7 @@
 			"name": "Markdown: Linebreak",
 			"scope": "text.html.markdown meta.dummy.line-break",
 			"settings": {
-				"background": "#c49900",
+				// "background": "#c49900",
 				"foreground": "#dadfe0"
 			}
 		},
@@ -1073,7 +1063,7 @@
 			"name": "Tex: {var}",
 			"scope": "variable.parameter.function.latex",
 			"settings": {
-				"fontStyle": "italic",
+				"fontStyle": "",
 				"foreground": "#F76051"
 			}
 		},
@@ -1082,7 +1072,7 @@
 			"scope": "punctuation.definition.constant.math.tex",
 			"settings": {
 				"fontStyle": "",
-				"foreground": "#f76051"
+				"foreground": "#06a59f"
 			}
 		},
 		{
@@ -1096,6 +1086,25 @@
 			"settings": {
 				"fontStyle": "",
 				"foreground": "#06a59f"
+			}
+		},
+		{
+			"name": "Tex: 花括号",
+			"scope":[
+				"constant.character.escape.tex",
+				"support.class.math.block.environment.latex"
+			],
+			"settings": {
+				"foreground": "#f76051",
+				"fontStyle": ""
+			}
+		},
+		{
+			"name": "Tex: section name",
+			"scope": "entity.name.section.latex",
+			"settings": {
+				"foreground": "#FF0000",
+				"fontStyle": "bold"
 			}
 		},
 		{
@@ -1132,7 +1141,7 @@
 			"name": "Tex: \\label { }",
 			"scope": "variable.parameter.definition.label.latex",
 			"settings": {
-				"fontStyle": "italic",
+				"fontStyle": "",
 				"foreground": "#f76051"
 			}
 		},
@@ -1407,7 +1416,7 @@
 			"name": "Markdown: separator",
 			"scope": "meta.separator.markdown",
 			"settings": {
-				"background": "#042029",
+				// "background": "#042029",
 				"foreground": "#2fa0dd"
 			}
 		},
@@ -1447,7 +1456,151 @@
 			}
 		},
 		{
-			"name": "Solorized Darcula",
+			"name": "R: operator",
+			"scope": [
+				"keyword.operator.assignment.r",
+				"keyword.operator.comparison.r",
+				"keyword.operator.comarison.r",
+				"keyword.operator.logical.r",
+				"source.r keyword.other.r"
+			],
+			"settings": {
+				"foreground":"#F92672",
+				"fontStyle": ""
+			}
+		},
+		{
+			"name": "R: variable other",
+			"scope": [
+				"variable.other.r"
+			],
+			"settings": {
+				"foreground":"#000000",
+				"fontStyle": ""
+			}
+		},
+		{
+			"name": "R: keyword control",
+			"scope": [
+				"keyword.control.r"
+			],
+			"settings": {
+				"foreground":"#F92672",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"name": "R: keyword operator.arithmetic",
+			"scope": [
+				"keyword.operator.arithmetic.r"
+			],
+			"settings": {
+				"foreground":"#d65182",
+				"fontStyle": ""
+			}
+		},
+		{
+			"name": "R: function-call argument",
+			"scope": [
+				"source.r meta.function-call.r meta.function-call.arguments.r variable.other.r "
+			],
+			"settings": {
+				"foreground":"#0f1abd",
+				"fontStyle": ""
+			}
+		},
+		{
+			"name": "R: function-call function",
+			"scope": [
+				"source.r meta.function-call.r variable.function.r"
+			],
+			"settings": {
+				"foreground":"#0918f3",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"name": "R: build-in function",
+			"scope": [
+				"source.r support.function.r"
+			],
+			"settings": {
+				"foreground":"#c442ae",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"name": "R: costum function name",
+			"scope": [
+				"source.r meta.function.r entity.name.function.r"
+			],
+			"settings": {
+				"foreground":"#E07D2D",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"name": "R: comment line roxygen",
+			"scope": [
+				"source.r comment.line.roxygen.r punctuation.definition.comment.r"
+			],
+			"settings": {
+				"foreground":"#334258",
+				"fontStyle": ""
+			}
+		},
+		{
+			"name": "Matlab: other keyword",
+			"scope": [
+				"source.matlab keyword.other.desktop.matlab"
+			],
+			"settings": {
+				"foreground":"#F92672",
+				"fontStyle": ""
+			}
+		},
+		{
+			"name": "Matlab: other keyword math",
+			"scope": [
+				"source.matlab keyword.other.mathematics.matlab"
+			],
+			"settings": {
+				"foreground":"#ca356c",
+				"fontStyle": ""
+			}
+		},
+		{
+			"name": "Matlab: other keyword transpose",
+			"scope": [
+				"keyword.operator.transpose.matlab"
+			],
+			"settings": {
+				"foreground":"#F92672",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"name": "Matlab: Double comment",
+			"scope": [
+				"comment.line.double-percentage.matlab punctuation.definition.comment.matlab"
+			],
+			"settings": {
+				"foreground":"#7D8082",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"name": "Matlab: operator keyword",
+			"scope": [
+				"source.matlab keyword.operator.symbols.matlab"
+			],
+			"settings": {
+				"foreground":"#F92672",
+				"fontStyle": ""
+			}
+		},
+		{
+			"name": "Eye Protection",
 			"scope": "",
 			"settings": {}
 		},
@@ -1456,7 +1609,7 @@
 			"scope": "invalid.deprecated",
 			"settings": {
 				"foreground": "#4D4D46",
-				"background": "#AE81FF"
+				// "background": "#AE81FF"
 			}
 		}
 	],
@@ -1465,8 +1618,23 @@
 		"editorCursor.foreground": "#f76051",
 		"editor.foreground": "#000000",
 		"editorWhitespace.foreground": "#3B3A32",
-		"editor.lineHighlightBackground": "#3B3A32",
-		"editor.selectionBackground": "#49483E"
+		// "editor.lineHighlightBackground": "#3B3A32",
+		// "editor.selectionBackground": "#49483E",
+		"sideBar.background": "#b9e0be",
+		"tab.inactiveBackground": "#b9e0be",
+		"tab.activeBorder": "#ff0000",
+		"editorGroupHeader.tabsBackground": "#b9e0be",
+		"activityBar.activeBackground": "#bbeec2",
+		"activityBar.background": "#739978",
+		//
+		"editor.lineHighlightBackground": "#E3E6ED",
+		"editor.lineHighlightBorder": "#E3E6ED00",
+		"editor.rangeHighlightBackground": "#E3E6ED",
+		"editor.selectionBackground": "#0065FF3F",
+		"editor.selectionHighlightBackground": "#02828659",
+		"editor.selectionHighlightBorder": "#00BEC400",
+		//
+		"editor.wordHighlightBackground": "#00BEC459"
 	},
-	"name": "Solarized Darcula"
+	"name": "Eye Protection"
 }

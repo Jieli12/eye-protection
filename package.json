@@ -1,6 +1,6 @@
 {
-    "name": "solarized-darcula",
-    "displayName": "Solarized Darcula",
+    "name": "eye-protection",
+    "displayName": "Eye Protection",
     "description": "",
     "version": "0.0.1",
     "engines": {
@@ -12,9 +12,9 @@
     "contributes": {
         "themes": [
             {
-                "label": "Solarized Darcula",
+                "label": "Eye Protection",
                 "uiTheme": "vs",
-                "path": "./themes/Solarized Darcula-color-theme.json"
+                "path": "./themes/Eye-Protection-color-theme.json"
             }
         ]
     }
