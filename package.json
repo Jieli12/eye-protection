@@ -1,0 +1,21 @@
+{
+    "name": "solarized-darcula",
+    "displayName": "Solarized Darcula",
+    "description": "",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.43.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Solarized Darcula",
+                "uiTheme": "vs",
+                "path": "./themes/Solarized Darcula-color-theme.json"
+            }
+        ]
+    }
+}
