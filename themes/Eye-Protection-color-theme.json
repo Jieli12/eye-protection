@@ -1589,10 +1589,11 @@
 				"fontStyle": "bold"
 			}
 		},
+
 		{
-			"name": "Matlab: operator keyword",
+			"name": "Matlab: operator keyword at",
 			"scope": [
-				"source.matlab keyword.operator.symbols.matlab"
+				"keyword.operator.symbols.matlab"
 			],
 			"settings": {
 				"foreground":"#F92672",
