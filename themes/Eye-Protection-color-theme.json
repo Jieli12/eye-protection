@@ -1589,7 +1589,6 @@
 				"fontStyle": "bold"
 			}
 		},
-
 		{
 			"name": "Matlab: operator keyword at",
 			"scope": [
