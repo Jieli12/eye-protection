@@ -1590,6 +1590,16 @@
 			}
 		},
 		{
+			"name": "Matlab:  keyword control",
+			"scope": [
+				"source.matlab keyword.control"
+			],
+			"settings": {
+				"foreground":"#F92672",
+				"fontStyle": ""
+			}
+		},
+		{
 			"name": "Matlab: operator keyword at",
 			"scope": [
 				"keyword.operator.symbols.matlab"
@@ -1599,6 +1609,16 @@
 				"fontStyle": ""
 			}
 		},
+		// {
+		// 	"name": "Matlab:  index variable",
+		// 	"scope": [
+		// 		"index.variable.matlab"
+		// 	],
+		// 	"settings": {
+		// 		"foreground":"#0f1ddf",
+		// 		"fontStyle": ""
+		// 	}
+		// },
 		{
 			"name": "Eye Protection",
 			"scope": "",
