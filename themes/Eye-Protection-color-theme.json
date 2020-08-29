@@ -1456,6 +1456,20 @@
 			}
 		},
 		{
+			"name": "Markdown: latex",
+			"scope": "meta.embedded.block.katex",
+			"settings": {
+				"foreground": "#1844a3"
+			}
+		},
+		{
+			"name": "Markdown: latex math symbol",
+			"scope": "punctuation.definition.math.inline.markdown",
+			"settings": {
+				"foreground": "#f76051"
+			}
+		},
+		{
 			"name": "R: operator",
 			"scope": [
 				"keyword.operator.assignment.r",
