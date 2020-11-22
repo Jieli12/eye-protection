@@ -1548,7 +1548,7 @@
       "scope": ["source.matlab keyword.control"],
       "settings": {
         "foreground": "#F92672",
-        "fontStyle": ""
+        "fontStyle": "italic"
       }
     },
     {
