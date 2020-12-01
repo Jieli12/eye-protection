@@ -1651,7 +1651,8 @@
       "scope": "meta.body.function.definition.cpp",
       "settings": {
         "fontStyle": "",
-        "foreground": "#e907b1f8"
+        "foreground": ""
+        // "foreground": "#e907b1f8"
       }
     },
     {
