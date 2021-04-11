@@ -1,13 +1,16 @@
 # README
-## This is the README for your extension "eye-protection"
-You can author your README using Visual Studio Code.  Here are some useful editor keyboard shortcuts:
+This is an eye protection color theme for Visual Studio Code. Except the default color settings, this theme extension also specifies colors for some scopes of C/Cpp, TeX/LaTeX, R, Matlab, Python, Java, Markdown, Perl, Shell, CSS, Diff, PHP, Ruby, HTML, JS.
+### How to install
 
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux)
-* Toggle preview (`Shift+CMD+V` on macOS or `Shift+Ctrl+V` on Windows and Linux)
-* Press `Ctrl+Space` (Windows, Linux) or `Cmd+Space` (macOS) to see a list of Markdown snippets
+1. Press **Ctrl+Shift+P (MacOS, Cmd+Shift+P**) to open the Command Palette.
+2. Enter **Install Extension**.
+3. Search **Eye Protection**.
+4. Select it or press Enter to install.
 
-### For more information
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
+### Screenshots:
+
+#### C++
+![Screenshots](https://raw.githubusercontent.com/yezige/vscode-theme-green-eyecare/master/screenshots/preview-cascadia-code.png)
+
 
 **Enjoy!**
