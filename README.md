@@ -10,7 +10,7 @@ This is an eye protection color theme for Visual Studio Code. Except the default
 ### Screenshots:
 
 #### C++
-![Screenshots](https://raw.githubusercontent.com/Jieli12/eye-protection/tree/master/ScreenShots/cplusplus.png)
+![Screenshots](https://github.com/Jieli12/eye-protection/tree/master/ScreenShots/cplusplus.png)
 #### LaTeX
 ![Screenshots](https://raw.githubusercontent.com/Jieli12/eye-protection/tree/master/ScreenShots/latex.png)
 #### MarkDown
