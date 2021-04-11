@@ -10,7 +10,15 @@ This is an eye protection color theme for Visual Studio Code. Except the default
 ### Screenshots:
 
 #### C++
-![Screenshots](https://raw.githubusercontent.com/yezige/vscode-theme-green-eyecare/master/screenshots/preview-cascadia-code.png)
+![Screenshots](https://raw.githubusercontent.com/Jieli12/eye-protection/tree/master/ScreenShots/cplusplus.png)
+#### LaTeX
+![Screenshots](https://raw.githubusercontent.com/Jieli12/eye-protection/tree/master/ScreenShots/latex.png)
+#### MarkDown
+![Screenshots](https://raw.githubusercontent.com/Jieli12/eye-protection/tree/master/ScreenShots/markdown.png)
+#### Matlab
+![Screenshots](https://raw.githubusercontent.com/Jieli12/eye-protection/tree/master/ScreenShots/matlab.png)
+#### Python
+![Screenshots](https://raw.githubusercontent.com/Jieli12/eye-protection/tree/master/ScreenShots/python.png)
 
 
 **Enjoy!**
