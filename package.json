@@ -1,8 +1,15 @@
 {
     "name": "eye-protection",
     "displayName": "Eye Protection",
-    "description": "",
+    "description": "This is an eye protection color theme for Visual Studio Code. Except the default color settings, this theme extension also specifies colors for some scopes of C/Cpp, TeX/LaTeX, R, Matlab, Python, Java, Markdown, Perl, Shell, CSS, Diff, PHP, Ruby, HTML, JS. ",
     "version": "0.0.1",
+    "publisher": "Jie Li",
+    "keywords": [
+        "eye protection",
+        "theme",
+        "light green"
+    ],
+    "icon": "eye-protection.png",
     "engines": {
         "vscode": "^1.43.0"
     },
@@ -17,5 +24,14 @@
                 "path": "./themes/Eye-Protection-color-theme.json"
             }
         ]
-    }
+    },
+    "bugs": {
+    "url": "https://github.com/Jieli12/eye-protection/issues",
+    "email": "lijie_12@hotmail.com"
+  },
+  "homepage": "https://github.com/Jieli12/eye-protection",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Jieli12/eye-protection"
+  },
 }
