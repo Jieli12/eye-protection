@@ -6,3 +6,6 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 ## [0.1.0] - 2021-04-11
 - Initial release
+
+## [0.2.0] - 2021-06-07
+- Support R Markdown highlight.

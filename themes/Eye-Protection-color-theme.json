@@ -1651,8 +1651,8 @@
       "scope": "meta.body.function.definition.cpp",
       "settings": {
         "fontStyle": "",
-        "foreground": ""
-        // "foreground": "#e907b1f8"
+        // "foreground": ""
+        "foreground": "#e907b1f8"
       }
     },
     {
@@ -1678,7 +1678,85 @@
         "foreground": "#0026ff",
         "fontStyle": ""
       }
-    }
+    },
+    {
+      "name": "rmd: paragraph",
+      "scope": [
+        "meta.paragraph.markdown",
+        "text.html.rmarkdown"
+      ],
+      "settings": {
+        "foreground": "#000000",
+        "fontStyle": ""
+      }
+    },
+    {
+      "name": "rmd: heading",
+      "scope": [
+        //         entity.name.section.markdown
+        // heading.1.markdown
+        "markup.heading.markdown"
+        // text.html.rmarkdown
+      ],
+      "settings": {
+        "foreground": "#F08C65",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "rmd: list",
+      "scope": [
+        "punctuation.definition.list.begin.markdown"
+      ],
+      "settings": {
+        "foreground": "#2a54dd",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "rmd: italic",
+      "scope": [
+        "punctuation.definition.italic.markdown",
+        "markup.italic.markdown"
+      ],
+      "settings": {
+        "foreground": "#083d8d",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "rmd: bold",
+      "scope": [
+        "punctuation.definition.bold.markdown",
+        "markup.bold.markdown"
+      ],
+      "settings": {
+        "foreground": "#083d8d",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "rmd: other r key word",
+      "scope": [
+        "keyword.other.r",
+        "meta.embedded.block.r"
+      ],
+      "settings": {
+        "foreground": "#F92672",
+        "fontStyle": ""
+      }
+    },
+    {
+      "name": "rmd: quote",
+      "scope": [
+        "punctuation.definition.quote.begin.markdown",
+        "markup.quote.markdown"
+      ],
+      "settings": {
+        "foreground": "#5a08b8",
+        "fontStyle": "bold"
+      }
+    },
 
   ],
   "colors": {
